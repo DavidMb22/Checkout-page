@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&amp;display=swap" rel="stylesheet">
+    <title>Checkout page</title>
+</head>
+
+<body>
+    <nav class="Navbar">
+        <h1 class="brand"><img src="img/coffee_masters_logo.png" class="logo"> Coffee Masters</h1>
+    </nav>
+    <div class="page">
+        <section class="order box">
+            <h1 class="box-title">ITEMS</h1>
+            <div class="items">
+                <div class="coffee-types">
+                    <div class="item-quantity">1x</div>
+                    <div class="types">
+                        <div class="item-name">Cappucino</div>
+                        <div class="category">Lite Foam</div>
+                    </div>
+                </div>
+                <div class="item-price">$6.00</div>
+            </div>
+            <div class="items">
+                <div class="coffee-types">
+                    <div class="item-quantity">1x</div>
+                    <div class="types">
+                        <div class="item-name">Cappucino</div>
+                        <div class="category">Almond Milk</div>
+                        <div class="category">Double Espresso Shot</div>
+                    </div>
+                </div>
+                <div class="item-price">$6.00</div>
+            </div>
+            <div class="items">
+                <div class="coffee-types">
+                    <div class="item-quantity">1x</div>
+                    <div class="types">
+                        <div class="item-name">Croissant</div>
+                        <div class="category">Butter</div>
+                    </div>
+                </div>
+                <div class="item-price">$6.00</div>
+            </div>
+        </section>
+        <section class="payment">
+            <div class="name-box box">
+                <h1 class="box-title">NAME</h1>
+               <div class="input-group">
+                <label class="user-input-label" for="name">Name for order</label>
+                <input type="text" class="user-input" id="name">
+            </div> 
+            </div>
+            <div class="cc-payment box">
+                <h1 class="box-title">Payment</h1>
+                <div class="input-group">
+                    <label class="user-input-label" for="name">Card number</label>
+                    <input type="text" class="user-input" id="card">
+                </div>
+                <div class="input-group">
+                    <label class="user-input-label" for="name">CCV number</label>
+                    <input type="text" class="small-input" id="ccv">
+                </div>
+            </div>
+        </section>
+        <section class="total">
+            <table class="table">
+            <tbody>
+                <tr>
+                    <td>Subtitle:</td>
+                    <td>$9.65</td>
+                </tr>
+                <tr>
+                    <td>Tax:</td>
+                    <td>$0.82</td>
+                </tr>
+                <tr class="tot-amount">
+                    <td>Total:</td>
+                    <td>$10.47</td>
+                </tr>
+            </tbody>
+            </table>
+            <button class="btn" type="button">Place order</button>
+        </section>
+        <section>
+            
+        </section>
+    </div>
+</body>
+
+</html>

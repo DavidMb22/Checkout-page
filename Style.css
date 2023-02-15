@@ -1,0 +1,171 @@
+* {
+    box-sizing: border-box;
+}
+
+section {
+    display: block;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: #efefef;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.Navbar {
+    width: auto;
+    height: 100px;
+    background-color: #43281c;
+    color: #fbf2c0;
+    display: flex;
+    font-size: 16px;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo {
+    height: 25px;
+    position: relative;
+    top: 3px;
+
+}
+
+.page {
+    display: grid;
+    row-gap: 30px;
+    column-gap: 30px;
+    width: 100%;
+    padding: 30px;
+    margin: 0 auto;
+    grid-template-areas:
+        "order payment"
+        "total total";
+    grid-template-columns: 1fr 1fr;
+}
+
+.box {
+    background-color: #eee1d5;
+    border-radius: 5px;
+    box-shadow: 0 1px 3px rgb(0 0 0 / 20%);
+    padding: 15px;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.order {
+    grid-area: order;
+}
+
+.payment {
+    grid-area: payment;
+}
+
+.total {
+    grid-area: total;
+}
+
+.box-title {
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    color: #885a2d;
+    font-weight: normal;
+    font-size: 20px;
+}
+
+.items {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 2px solid #DDB892;
+}
+
+.items:last-child {
+    border-bottom: none;
+}
+
+.item-name {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.item-price {
+    font-weight: bold;
+}
+
+.category {
+    font-weight: lighter;
+    color: #885a2d;
+    font-size: 14px;
+}
+
+.coffee-types {
+    display: flex;
+}
+
+.types {
+    margin-left: 60px;
+}
+
+.name {
+    height: 100px;
+}
+
+.input-group {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.user-input {
+    background-color: rgba(0, 0, 0, 0);
+    border: 2px #885a2d solid;
+    padding: 8px;
+    border-radius: 100px;
+    width: 100%;
+    text-indent: 18px;
+    font-size: 18px;
+}
+
+.user-input-label {
+    color: #885a2d;
+    background-color: #eee1d5;
+    font-size: 11px;
+    position: absolute;
+    left: 25px;
+    top: -7px;
+    padding: 0 2px;
+}
+
+.small-input{
+    background-color: rgba(0, 0, 0, 0);
+    border: 2px #885a2d solid;
+    padding: 8px;
+    border-radius: 100px;
+    width: 30%;
+    text-indent: 18px;
+    font-size: 18px;
+}
+
+.table{
+    width: 30%;
+    margin-left: 30rem;
+    margin-bottom: 20px;
+}
+
+.btn{
+    background-color: #deb993;
+    border: none;
+    padding: 10px 30px;
+    width: 100%;
+    border-radius: 100px;
+    font-size: 16px;
+}
+
+.tot-amount{
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+
